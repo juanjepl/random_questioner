@@ -13,7 +13,7 @@ print("*      Randomized Auto Questioner      *")
 print("*                                      *")
 print("****************************************")
 print(" ")
-print("--- Please, input any value to get the next question. ---")
+print("--- Please, press ENTER to get the next question. ---")
 print(" ")
 
 for i in range(1, len(info_list)+1):
@@ -22,5 +22,5 @@ for i in range(1, len(info_list)+1):
     print(message.format(i, info_size, info_list.pop(choice)))
     input()
 
-print("\n--- Please, input any value to finish the program. ---")
+print("\n--- Please, press ENTER to finish the program. ---")
 input()
